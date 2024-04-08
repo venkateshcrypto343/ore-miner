@@ -1,11 +1,11 @@
 #!/bin/bash
 
 #add your solana rpc endpoint
-DEFAULT_RPC_URL="......"
+DEFAULT_RPC_URL="https://solana-mainnet.g.alchemy.com/v2/DVfJf5L1hxH399sENjN0Sml5ncyywmqV"
 #add your solana pubkey path
-DEFAULT_KEY="....."
+DEFAULT_KEY="/root/.config/solana/id.json"
 #define solana gas fee
-DEFAULT_FEE=0
+DEFAULT_FEE=10000000
 #define how many cpu threads used
 DEFAULT_THREADS=10
 
